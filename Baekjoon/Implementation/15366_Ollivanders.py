@@ -2,25 +2,23 @@
 https://www.acmicpc.net/problem/15366
 
 Ollivanders Wand Shop
-Can all the wands be placed into the boxes?
+Help Harry help Mr Ollivander in putting the wands into the right boxes. Can all the wands be placed in the boxes?
 """
 
 N = int(input())
 wand = list(map(int, input().split()))
 box = list(map(int, input().split()))
+count = 0
 
 wand.sort()
 box.sort()
-count = 0
 
-while count < N:
-    if wand[0] > box[0]:
+while count <= N:
+    if count == N:
+        print("DA")
+        break
+    elif wand[count] <= box[count]:
+        count += 1
+    else:
         print("NE")
         break
-    elif count < N:
-        count += 1
-
-if count == N:
-    print("DA")
-
-
