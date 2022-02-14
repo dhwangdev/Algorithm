@@ -20,21 +20,32 @@ while True:
             osurplus += supply[index]-patients[index]
         elif index in range(2, 8):
             absurplus += supply[index]-patients[index]
-
+            
     else:
         receive += supply[index]
-        if index in range(2, 6):   
-            if osurplus >= patients[index]-supply[index]:
-                receive += patients[index]-supply[index]
-                osurplus -= patients[index]-supply[index]
+        patients[index] -= supply[index]
+        if index in range(1, 6):   
+            if osurplus >= patients[index]:
+                receive += patients[index]
+                osurplus -= patients[index]
             else:
                 receive += osurplus
                 osurplus = 0
         elif index in range(6, 8):
-            if absurplus >= patients[index]-supply[index]:
-                receive += patients[index]-supply[index]
+            if absurplus >= patients[index]:
+                receive += patients[index]
+                absurplus -= patients[index]
+            else:
+                receive += absurplus
+                patients[index] -= absurplus
+                absurplus = 0
+                if osurplus >= patients[index]:
+                    receive += patients[index]
+                    osurplus -= patients[index]
+                else:
+                    receive += osurplus
+                    osurplus = 0
 
-            
     if index in range(0, 6):        
         index += 2
     elif index == 6:
