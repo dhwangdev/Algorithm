@@ -7,5 +7,10 @@ methods
 .count()
 .reverse()
 
+Functions
+
+enumerate(iterable, start)
+
+zip()
 
 """
