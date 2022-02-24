@@ -7,6 +7,9 @@ methods
 .count()
 .reverse()
 
+.extend(iterable)
+-adds iterable elements to the end of the current iterable
+
 Functions
 
 enumerate(iterable, start)
