@@ -22,5 +22,9 @@ zip(iterables1, iterables2, ...)
 to unzip:
 a, b, c = zip(*zipped_iterable_name)
 
+filter(function, iterable)
+-extracts elements from an iterable for which a function returns True
+-when None is used as the first argument as the function, all elements that are truthy values (gives True if converted to boolean) are extracted
+
 
 """
