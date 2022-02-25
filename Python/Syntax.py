@@ -4,11 +4,15 @@ List
 methods
 .sort()
 .append()
-.count()
+.count()pyt
 .reverse()
 
 .extend(iterable)
 -adds iterable elements to the end of the current iterable
+
+.index(element, start_index, end_index)
+-returns the index at the first occurrence of the specified element
+
 
 Functions
 
