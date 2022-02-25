@@ -4,7 +4,7 @@ List
 methods
 .sort()
 .append()
-.count()pyt
+.count()
 .reverse()
 
 .extend(iterable)
