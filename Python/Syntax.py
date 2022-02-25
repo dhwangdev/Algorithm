@@ -13,6 +13,10 @@ methods
 .index(element, start_index, end_index)
 -returns the index at the first occurrence of the specified element
 
+.insert(index, element)
+-the element is insert to the index position
+
+
 
 Functions
 
@@ -33,5 +37,6 @@ filter(function, iterable)
 -extracts elements from an iterable for which a function returns True
 -when None is used as the first argument as the function, all elements that are truthy values (gives True if converted to boolean) are extracted
 
+sorted()
 
 """
