@@ -1,0 +1,13 @@
+<create table>
+CREATE TABLE 이름(
+  student_id INT PRIMARY KEY,
+  name VARCHAR(20),
+  major VARCHAR(20),
+  );
+  
+DROP TABLE 이름;
+
+ALTER TABLE 이름 ADD score DECIMAL(3, 2);
+
+ALTER TABLE 이름 DROP COLUMN name;
+
