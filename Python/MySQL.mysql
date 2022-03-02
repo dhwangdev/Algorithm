@@ -48,3 +48,10 @@ LIMIT 2;
 WHERE major = 'Chemistry';
 WHERE name IN ('Claire', 'Kate', 'Mike');
 
+SELECT first_name AS forename, last_name AS surname
+FROM employee;
+
+SELECT DISTINCT branch_id
+FROM employee;
+
+
