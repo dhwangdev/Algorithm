@@ -15,3 +15,13 @@ ALTER TABLE 이름 DROP COLUMN name;
 INSERT INTO 이름 VALUES(1, 'Daniel', 'Biochemistry');
 
 INSERT INTO 이름(student_id, name) VALUES(1, 'Kate');
+
+<Constraints>
+ex)
+name VARCHAR(20) NOT NULL,
+name VARCHAR(20) UNIQUE, 
+major VARCHAR(20) DEFAULT 'undecided',
+student_id INT AUTO_INCREMENT,
+
+*primary key는 자동으로 NOT NULL & UNIQUE
+
