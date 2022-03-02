@@ -35,3 +35,16 @@ WHERE major = 'Biology' OR major = 'Chemistry';
 DELETE FROM 이름
 WHERE name = 'Tom' AND major = 'undecided';
 
+<Basic Queries>
+SELECT * FROM 테이블;
+
+SELECT name, major
+FROM 테이블
+ORDER BY name;
+ORDER BY name DESC;
+ORDER BY name ASC;
+ORDER BY major, student_id
+LIMIT 2;
+WHERE major = 'Chemistry';
+WHERE name IN ('Claire', 'Kate', 'Mike');
+
