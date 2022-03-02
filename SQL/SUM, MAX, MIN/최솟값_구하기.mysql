@@ -1,9 +1,0 @@
-/*
-https://programmers.co.kr/learn/courses/30/lessons/59038
-
-가장 먼저 들어온 동물 조회
-*/
-
-SELECT datetime FROM animal_ins
-ORDER BY datetime
-LIMIT 1;
