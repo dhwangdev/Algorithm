@@ -1,9 +1,0 @@
-/* 
-https://programmers.co.kr/learn/courses/30/lessons/59415
-
-가장 최근에 들어온 동물 조회
-*/
-
-SELECT datetime FROM ANIMAL_INS
-ORDER BY datetime DESC
-LIMIT 1;
