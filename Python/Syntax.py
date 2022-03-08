@@ -1,4 +1,25 @@
 """
+<Modules>
+
+<RegEX (Regular Expression)>
+-RegEx is a sequence of characters that forms a search pattern. 
+
+import re
+
+<RegEx Functions>
+findall: returns a list containing all matches
+search: returns a match object if there is a match anywere in the string
+split: returns a list where the string has been split at each match
+sub: replaces one or many matches with a string
+
+<Metacharacters>
+
+
+
+
+
+
+
 List
 
 methods
