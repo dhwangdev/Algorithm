@@ -13,7 +13,9 @@ split: returns a list where the string has been split at each match
 sub: replaces one or many matches with a string
 
 <Metacharacters>
-
+. any character (except newline character)
+^ starts with
+$ ends with
 
 
 
