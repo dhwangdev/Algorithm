@@ -16,6 +16,7 @@ sub: replaces one or many matches with a string
 . any character (except newline character)
 ^ starts with
 $ ends with
+[] a set of characters
 
 
 
