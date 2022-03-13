@@ -41,6 +41,10 @@ methods
 .insert(index, element)
 -the element is insert to the index position
 
+.pop(index)
+-removes the item at the given index from the list and returns the removed item
+- default index is -1
+
 
 
 Functions
