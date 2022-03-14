@@ -19,7 +19,7 @@ $ ends with
 [] a set of characters
 / special sequence
 * zero or more occurrences
-
++ one or more occurrences
 
 
 
