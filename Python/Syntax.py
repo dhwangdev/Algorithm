@@ -17,7 +17,7 @@ sub: replaces one or many matches with a string
 ^ starts with
 $ ends with
 [] a set of characters
-/ special sequence
+\ special sequence
 * zero or more occurrences
 + one or more occurrences
 ? zero or one occurrences
