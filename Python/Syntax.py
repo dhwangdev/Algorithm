@@ -21,7 +21,7 @@ $ ends with
 * zero or more occurrences
 + one or more occurrences
 ? zero or one occurrences
-
+{} exactly the specified number of occurrences
 
 
 List
