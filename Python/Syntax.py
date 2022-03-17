@@ -22,7 +22,7 @@ $ ends with
 + one or more occurrences
 ? zero or one occurrences
 {} exactly the specified number of occurrences
-
+| either or
 
 List
 
