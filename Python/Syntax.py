@@ -23,6 +23,7 @@ $ ends with
 ? zero or one occurrences
 {} exactly the specified number of occurrences
 | either or
+() capture and group
 
 List
 
