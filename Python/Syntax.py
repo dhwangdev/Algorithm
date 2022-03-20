@@ -25,6 +25,9 @@ $ ends with
 | either or
 () capture and group
 
+<Special Sequences>
+\A returns a match if the specified characters are at the beginning of the string
+
 List
 
 methods
