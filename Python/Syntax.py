@@ -28,7 +28,7 @@ $ ends with
 <Special Sequences>
 \A returns a match if the specified characters are at the beginning of the string
 \b returns a match where the specified characters are at the beginning or at the end of a word
-
+\B returns a match where the specified characters are present, but not at the beginning (or at the end) of a word
 
 
 List
