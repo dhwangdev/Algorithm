@@ -28,6 +28,7 @@ $ ends with
 <Special Sequences>
 \A returns a match if the specified characters are at the beginning of the string
 \b returns a match where the specified characters are at the beginning or at the end of a word
+ex) r"\bain" or r"ain\b" (the "r" in the beginning is making sure that the string is being treated as a "faw string")
 \B returns a match where the specified characters are present, but not at the beginning (or at the end) of a word
 
 
