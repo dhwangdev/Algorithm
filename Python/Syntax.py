@@ -33,6 +33,9 @@ ex) r"\bain" or r"ain\b" (the "r" in the beginning is making sure that the strin
 \d returns a match where the string contains digits (numbers from 0 - 9)
 \D returns a match where the string does not contain digits
 \s returns a match where the string contains a whitespace character
+\S returns a match where the string does not contain a whitespace character
+
+
 
 List
 
