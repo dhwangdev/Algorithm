@@ -35,6 +35,9 @@ ex) r"\bain" or r"ain\b" (the "r" in the beginning is making sure that the strin
 \s returns a match where the string contains a whitespace character
 \S returns a match where the string does not contain a whitespace character
 \w returns a match where the string contains any word characters (characters from a to Z, digits from 0-9, and the underscore _ character)
+\W returns a match where the string does not contain any word characters
+
+
 
 
 List
