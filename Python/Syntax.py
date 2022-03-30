@@ -38,6 +38,8 @@ ex) r"\bain" or r"ain\b" (the "r" in the beginning is making sure that the strin
 \W returns a match where the string does not contain any word characters
 \Z returns a match if the specified characters are at the end of the string
 
+Sets
+[arn] returns a match where one of the specified characters (a, r, or n) are present
 
 
 List
