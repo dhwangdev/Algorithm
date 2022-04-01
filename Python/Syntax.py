@@ -41,6 +41,7 @@ ex) r"\bain" or r"ain\b" (the "r" in the beginning is making sure that the strin
 Sets
 [arn] returns a match where one of the specified characters (a, r, or n) are present
 [a-n] returns a match for any lower case character, alphabetically between a and n
+[^arn] returns a match for nay character except a, r, and n
 
 
 List
