@@ -42,6 +42,7 @@ Sets
 [arn] returns a match where one of the specified characters (a, r, or n) are present
 [a-n] returns a match for any lower case character, alphabetically between a and n
 [^arn] returns a match for nay character except a, r, and n
+[0123] returns a match where any of the specified digits (0, 1, 2, or 3) are present
 
 
 List
