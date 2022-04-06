@@ -45,7 +45,7 @@ Sets
 [0123] returns a match where any of the specified digits (0, 1, 2, or 3) are present
 [0-9] returns a match for any digit between 0 and 9
 [0-5][0-9] returns a match for any two-digit numbers from 00 and 59
-
+[a-zA-z] returns a match for any character alphabetically between a and z, lower case or upper case
 
 List
 
