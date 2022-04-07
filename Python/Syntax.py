@@ -46,6 +46,7 @@ Sets
 [0-9] returns a match for any digit between 0 and 9
 [0-5][0-9] returns a match for any two-digit numbers from 00 and 59
 [a-zA-z] returns a match for any character alphabetically between a and z, lower case or upper case
+[+] in sets, +, *, ., |, (), $, {} has no special meaning, so [+] means: return a match for any + character in the string
 
 List
 
