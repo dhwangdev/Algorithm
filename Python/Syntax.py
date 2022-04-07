@@ -106,5 +106,11 @@ Methods:
 dict = {**iterable1, **iterable2, etc}
 -merge dictionaries
 
+Set
+
+Methods:
+
+.union() return a set containing the union of sets
+
 
 """
