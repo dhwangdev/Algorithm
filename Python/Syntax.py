@@ -111,6 +111,8 @@ Set
 Methods:
 
 .union() return a set containing the union of sets
+.difference() returns a set containing the difference between two or more sets
+
 
 
 """
