@@ -112,6 +112,7 @@ Methods:
 
 .union() return a set containing the union of sets
 .intersection() returns a set, that is the intersection of two or more sets
+.intersection_update() removes the items in this set that are not present in other, specified sets
 .difference() returns a set containing the difference between two or more sets
 
 
