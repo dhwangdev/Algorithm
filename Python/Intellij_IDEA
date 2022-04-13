@@ -1,3 +1,5 @@
-shift + F6
-ctrl + alt + L
-ctrl + shift + P
+shift + F6: rename variable, function names for all cases
+ctrl + D: duplicate line
+ctrl + alt + L: proper formatting
+ctrl + B: read standard library
+ctrl + shift + P: check data type
