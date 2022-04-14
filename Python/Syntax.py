@@ -115,7 +115,7 @@ Methods:
 .intersection_update() removes the items in this set that are not present in other, specified sets
 .difference() returns a set containing the difference between two or more sets
 .difference_update() removes the items in this set that are also included in another, specified set
-
+.update() update the set with another set, or any other iterable
 
 
 
