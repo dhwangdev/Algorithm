@@ -116,6 +116,7 @@ Methods:
 .difference() returns a set containing the difference between two or more sets
 .difference_update() removes the items in this set that are also included in another, specified set
 .update() update the set with another set, or any other iterable
+.symmetric_difference() returns a set with the symmetric differences of two sets
 
 
 
