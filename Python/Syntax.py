@@ -118,6 +118,7 @@ Methods:
 .update() update the set with another set, or any other iterable
 .symmetric_difference() returns a set with the symmetric differences of two sets
 .symmetric_difference_update() inserts the symmetric differences from this set and another
+.issubset() returns whether another set contains this set or not
 
 
 
