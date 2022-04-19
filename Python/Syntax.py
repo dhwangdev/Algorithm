@@ -119,6 +119,7 @@ Methods:
 .symmetric_difference() returns a set with the symmetric differences of two sets
 .symmetric_difference_update() inserts the symmetric differences from this set and another
 .issubset() returns whether another set contains this set or not
+.issuperset() returns whether this set contains another set or not
 
 
 
