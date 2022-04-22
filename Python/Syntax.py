@@ -52,7 +52,8 @@ List
 
 methods
 .sort()
-.append()
+.append() -> value
+.remove() -> value
 .count()
 .reverse()
 
