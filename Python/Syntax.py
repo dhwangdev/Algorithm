@@ -121,6 +121,7 @@ Methods:
 .symmetric_difference_update() inserts the symmetric differences from this set and another
 .issubset() returns whether another set contains this set or not
 .issuperset() returns whether this set contains another set or not
+.isdisjoint() returns whether two sets have an intersection or not
 
 
 
