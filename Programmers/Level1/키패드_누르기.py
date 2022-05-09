@@ -2,17 +2,10 @@ def solution(numbers, hand):
     
     keypad = [[1, 2, 3], [4, 5, 6], [7, 8, 9], ["*", 0, "#"]]
 
-    leftThumb = "*"
-    rightThumb = "#"
+    leftThumb = [3, 0]
+    rightThumb = [3, 2]
 
     answer = ""
-
-    """ 
-    rightDis
-    leftDis
-    rightCoor
-    leftCoor
-    """
 
     for ele in numbers:
         for row in range(len(keypad)):
@@ -23,10 +16,9 @@ def solution(numbers, hand):
                     elif col == 2:
                         answer += "R"
                     else:
-                        for row in range(len(keypad)):
-                            for col in range(len(keypad[0])):
-                                if keypad[]
-                        leftDis = (row - )
+                        leftDis = [row - leftThumb[0], col - leftThumb[1]]
+                        rightDis = [row - rightThumb[0], col - rightThumb[1]]
+                        
 
 
 
