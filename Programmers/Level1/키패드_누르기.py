@@ -13,23 +13,25 @@ def solution(numbers, hand):
                 if ele == keypad[row][col]:
                     if col == 0:
                         answer += "L"
+                        leftThumb = [row, col]
                     elif col == 2:
                         answer += "R"
+                        rightThumb = [row, col]
                     else:
-                        leftDis = [row - leftThumb[0], col - leftThumb[1]]
-                        rightDis = [row - rightThumb[0], col - rightThumb[1]]
-                        
+                        leftDis = [abs(row - leftThumb[0]) + abs(col - leftThumb[1])]
+                        rightDis = [abs(row - rightThumb[0]) + abs(col - rightThumb[1])]
+                        if leftDis < rightDis:
+                            answer += "L"
+                            leftThumb = [row, col]
+                        elif rightDis < leftDis:
+                            answer += "R"
+                            rightThumb = [row, col]
+                        else:
+                            if hand == "left":
+                                answer += "L"
+                                leftThumb = [row, col]
+                            else:
+                                answer += "R"
+                                rightThumb = [row, col]
 
-
-
-                        """
-                        1. distance 계산후 L 인지 R 인지 확인
-                        2. distance 가 같을때 hand 기준으로 정하기
-                        3. coor의 기준이 현재인지 start 인지
-                            1) 현재:
-
-
-                            2) start: 
-                        4. declare leftcoor or leftDis first??
-
-                        """
+    return answer
