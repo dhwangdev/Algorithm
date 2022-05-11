@@ -7,3 +7,17 @@
 
 for num in range(ord("a"), ord("h") + 1):
     print(chr(num))
+
+# <Doubly Ended Queue>
+
+# 1. Declare deque
+from collections import deque
+리스트 = deque([])
+
+#2. Add/ Remove elements
+appendleft(밸류)
+popleft() # empty parentheses
+
+#3. Convert deque back to list
+list(데큐_리스트)
+
