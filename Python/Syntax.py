@@ -2,10 +2,7 @@ Functions
 
 enumerate(iterable, start)
 -(index, element)
--used when you need both the index and the element
--adds counter to an iterable and returns it.
--adds a counter as the key of the enumerate object.
--start: starts counting from this number. (0 is default)
+-used when you need both the index (or counter- 0 is default) and the element
 
 zip(iterables1, iterables2, ...)
 -returns a zip object as an iterator of tuples
