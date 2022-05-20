@@ -11,3 +11,6 @@ zip(iterables1, iterables2, ...)
 
 to unzip:
 a, b, c = zip(*zipped_iterable_name)
+
+ord()
+chr()
