@@ -14,5 +14,10 @@ setup:
 2. project 16/ junit 5
 3. gradle jdk 11 (17 not yet fully usable for gradle)
 
-For Spring use:
-use Maven
+For Spring (Java) use:
+use Maven (for Java)
+
+Javascript- VS Code
+
+1. download node js
+2. get live server extension
