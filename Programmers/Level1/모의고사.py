@@ -3,10 +3,19 @@ def solution(answers):
     sec = [2, 1, 2, 3, 2, 4, 2, 5]
     thi = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
 
-    count = [0, 0, 0]
+    score = [0, 0, 0]
+    ans = []
 
-    answer = max(count)
+    for idx, num in enumerate(answers):
+        if num == fir[idx%len(fir)]:
+            score[0] += 1
+        if num == sec[idx%len(sec)]:
+            score[1] += 1
+        if num == thi[idx%len(thi)]:
+            score[2] += 1
+    
+    for person, number in enumerate(score, 1):
+        if number == max(score):
+            ans.append(person)
 
-    for idx in range(len(answers)):
-        if fir[idx] == answers[idx]:
-            count[0] += 1
+    return ans
