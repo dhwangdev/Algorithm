@@ -11,7 +11,17 @@ def solution(N, stages):
             if player >= level:
                 d += 1
 
-        if n == 0 and d == 0:
-            d += 1
+        if d == 0:
+            d = 1
         
         failRate.append(n/d)
+
+    failRate = list(enumerate(failRate, 1))
+
+    failSet = sorted(failRate, key = lambda x: (-x[1], x[0]))
+
+    ans = [x[0] for x in failSet]
+
+    return ans
+
+print(solution(4, [4, 4, 4, 4, 4]))
