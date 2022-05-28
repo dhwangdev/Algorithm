@@ -18,10 +18,8 @@ def solution(N, stages):
 
     failRate = list(enumerate(failRate, 1))
 
-    failSet = sorted(failRate, key = lambda x: (-x[1], x[0]))
+    failRate.sort(key = lambda x: (-x[1], x[0]))
 
-    ans = [x[0] for x in failSet]
+    ans = [x[0] for x in failRate]
 
     return ans
-
-print(solution(4, [4, 4, 4, 4, 4]))
