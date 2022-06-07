@@ -21,3 +21,8 @@ popleft() # empty parentheses
 #3. Convert deque back to list
 list(데큐_리스트)
 
+# <String join method>
+
+Iterable = [내용, etc]
+
+변수 = "세퍼레이터".join(Iterable)
