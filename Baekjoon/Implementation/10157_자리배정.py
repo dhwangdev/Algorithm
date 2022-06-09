@@ -1,1 +1,1 @@
-x, y = map(int, in
+x, y = 
