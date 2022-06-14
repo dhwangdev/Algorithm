@@ -13,3 +13,7 @@ pip install --user pipenv
 2. pipenv install Django==(버전)
 (그냥 Django는 최신 버전)
 3. django-admin (to check if everything has been installed correctly)
+
+3) Github
+1. Make new repo
+2. 
