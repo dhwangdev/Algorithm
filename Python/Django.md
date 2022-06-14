@@ -10,4 +10,6 @@ pip install --user pipenv
 
 (VS Code terminal)
 1. pipenv shell (activate virtual environment)
-2. 
+2. pipenv install Django==(버전)
+(그냥 Django는 최신 버전)
+3. django-admin (to check if everything has been installed correctly)
