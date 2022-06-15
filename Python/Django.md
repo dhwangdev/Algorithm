@@ -24,4 +24,9 @@ DOWNLOAD GIT & CONFIGURE THE SETTINGS
 -2. git remote add origin (URL)
 -3. git add . 
 -4. git commit -m "내용"
--5. touch README.md
+-5. touch README.md (git bash로 해야함. windows powershell로는 안됨)
+-6. touch .gitignore
+-구글에 gitignore python
+copy & paste to .gitignore
+-7. git add .
+-8. git commit -m "내용"
