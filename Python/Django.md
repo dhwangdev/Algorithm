@@ -30,3 +30,6 @@ DOWNLOAD GIT & CONFIGURE THE SETTINGS
 copy & paste to .gitignore
 -7. git add .
 -8. git commit -m "내용"
+
+Setting up VSCode
+1. django-admin startproject config
