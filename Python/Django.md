@@ -1,4 +1,4 @@
-1) Install pipenv
+<1> Install pipenv
 powershell에서 
 pip install --user pipenv
 * need to add python to path first!!
@@ -16,4 +16,8 @@ pip install --user pipenv
 
 3) Github
 1. Make new repo
-2. 
+=====================
+DOWNLOAD GIT
+=====================
+2. Copy URL of new repo -> VS Code terminal:
+1. git init
