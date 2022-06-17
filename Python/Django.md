@@ -33,3 +33,18 @@ copy & paste to .gitignore
 
 Setting up VSCode
 1. django-admin startproject config
+2. Rename the outside config (ex. Aconfig)
+3. Move inner config and manage.py outside
+4. Delete Aconfig (outside config)
+5. Change python interpreter to the one with pipenv
+6. Enable linter flake 8 (check in .vscode/settings.json
+-in bash: pipenv install flake8 --dev
+7. Formatter
+pipenv install black --dev --pre
+안될 경우 settings.json에
+"python.formatting.provider": "black",
+*1. Formatter -> black
+*2. Format on save -> tick
+8. Linter & black 체으하기위해
+json에 
+"python.linting.flake8Args": ["--max-line-length=100"]
