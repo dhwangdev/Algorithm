@@ -48,3 +48,13 @@ pipenv install black --dev --pre
 8. Linter & black 체으하기위해
 json에 
 "python.linting.flake8Args": ["--max-line-length=100"]
+
+Django
+1. python manage.py runserver
+Quit server: ctrl + c
+2. python manage.py migrate
+다시 python manage.py runserver
+3. python manage.py createsuperuser
+ID
+pw
+4. python manage.py makemigrations
