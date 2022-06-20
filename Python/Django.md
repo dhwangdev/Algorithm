@@ -58,3 +58,14 @@ Quit server: ctrl + c
 ID
 pw
 4. python manage.py makemigrations
+
+Django applications
+1. django-admin startapp (application name plural)
+지우고 싶은면 
+rm -rj (이름)
+admin:
+apps:
+models: describe what the DB should look like
+tests
+view: what the user see, put the functions
+2. create urls.py in users folder
