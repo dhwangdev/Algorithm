@@ -77,3 +77,10 @@ from django.db import models
 
 class user(AbstractUser):
   pass
+
+Applications Definition
+1. config/settings.py
+1) DJANGO_APPS 만들고
+INSTALLED APPS 내용을 여기로 옮김
+2) PROJECT_APPS 만들어서
+"users.apps.UsersConfig",
