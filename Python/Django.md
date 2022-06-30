@@ -69,3 +69,11 @@ models: describe what the DB should look like
 tests
 view: what the user see, put the functions
 2. create urls.py in users folder
+
+User App
+1. users/models.py (replace default user)
+from django.contrib.auth.models
+from django.db import models
+
+class user(AbstractUser):
+  pass
