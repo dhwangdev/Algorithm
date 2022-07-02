@@ -84,3 +84,7 @@ Applications Definition
 INSTALLED APPS 내용을 여기로 옮김
 2) PROJECT_APPS 만들어서
 "users.apps.UsersConfig",
+3) INSTALLED_APPS = D + P
+(static files)
+
+1. AUTH_USER_MODEL = "users.User" 추가
