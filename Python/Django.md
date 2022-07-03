@@ -88,3 +88,8 @@ INSTALLED APPS 내용을 여기로 옮김
 (static files)
 
 1. AUTH_USER_MODEL = "users.User" 추가
+
+// will get an error
+sql should have been deleted
+python manage.py
+makemigrations
