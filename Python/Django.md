@@ -109,3 +109,9 @@ class CustomUserAdmin(admin.ModelAdmin):
 users/models.py
 
 pass 지우고
+
+1. bio = models.TextField()
+2. 에러
+3. python manage.py makemigrations
+4. bio = models.TextField(default = "")
+5. 3번 하삼
