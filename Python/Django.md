@@ -93,3 +93,19 @@ INSTALLED APPS 내용을 여기로 옮김
 sql should have been deleted
 python manage.py
 makemigrations
+
+User Model
+1. 에러 고치고 서버 킴
+2. super user 다시 만들고 admin 로그인
+users/admin.py
+
+same from ~
+from . import models
+
+@admin.register(models.User)
+class CustomUserAdmin(admin.ModelAdmin):
+  pass
+  
+users/models.py
+
+pass 지우고
