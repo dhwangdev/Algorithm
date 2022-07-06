@@ -113,5 +113,7 @@ pass 지우고
 1. bio = models.TextField()
 2. 에러
 3. python manage.py makemigrations
-4. bio = models.TextField(default = "")
+4. bio = models.TextField(default = "")   -> null = True 방식도 있음
 5. 3번 하삼
+6. python manage.py migrate
+7. server run 해
