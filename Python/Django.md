@@ -117,3 +117,8 @@ pass 지우고
 5. 3번 하삼
 6. python manage.py migrate
 7. server run 해
+
+같은 파일
+1. docstring 만들기
+avatar = models.ImageField(null=True)
+gender = models.CharField(max_length=10, null = True)
