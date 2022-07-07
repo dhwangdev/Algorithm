@@ -122,3 +122,6 @@ pass 지우고
 1. docstring 만들기
 avatar = models.ImageField(null=True)
 gender = models.CharField(max_length=10, null = True)
+2. python manage.py makemigrations
+에러 b/c pillow
+pipenv install Pillow
