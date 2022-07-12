@@ -127,3 +127,7 @@ gender = models.CharField(max_length=10, null = True)
 pipenv install Pillow
 3. python manage.py makemigrations
 python manage.py migrate
+
+GENDER_MALE = "male"
+GENDER_FEMALE = "female"
+GENDER_OTHER = "other"
