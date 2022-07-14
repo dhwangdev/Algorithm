@@ -135,4 +135,5 @@ GENDER_OTHER = "other"
 GENDER_CHOICES = (
   (GENDER_MALE, "Male"),
   (GENDER_FEMALE, "Female"),
-  (GENDER_OTHER, "
+  (GENDER_OTHER, "Other"),
+)
