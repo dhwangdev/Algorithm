@@ -31,6 +31,11 @@ Create new class (Project already selected)
 2. Check: public static void main(String[] args)
 3. Finish
 
+Eclipse Settings:
+1. Dark mode
+2. font change
+3. UTF-8
+
 Javascript- VS Code
 1. download node js
 2. get live server extension
