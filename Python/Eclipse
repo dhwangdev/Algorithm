@@ -2,3 +2,4 @@ ctrl + /: comment out/ remove comment
 ctrl + D: delete line
 ctrl + alt + up/down: duplicate line
 alt + shift + R: refactoring
+alt up/down: move a line of code up/down
