@@ -10,5 +10,6 @@ public class Solution {
 		int[] input = Arrays.stream(br.readLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
 		Arrays.sort(input);
 		System.out.println(input[N/2]);
+		br.close();
 	}
 }
