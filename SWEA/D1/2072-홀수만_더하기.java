@@ -20,6 +20,8 @@ public class Solution {
 			}
 			use[idx] = sum;
 		}
+		br.close();
+		
 		for (int idx=0; idx<T; idx++) {
 			System.out.printf("#%d "+ use[idx], idx+1);
 			System.out.println();
