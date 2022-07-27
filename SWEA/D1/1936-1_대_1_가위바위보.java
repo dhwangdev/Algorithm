@@ -10,6 +10,8 @@ public class Solution {
 		int A = input[0];
 		int B = input[1];
 		
+		br.close();
+		
 		if (A+B ==4) {
 			if (A<B) {
 				System.out.println("A");
