@@ -36,6 +36,14 @@ Eclipse Settings:
 2. font change
 3. UTF-8
 
+Eclipse EE Settings:
+1. Dark & font change
+2. UTF-8
+css UTF-8
+html UTF-8
+JSP UTF-8
+3. 
+
 Javascript- VS Code
 1. download node js
 2. get live server extension
