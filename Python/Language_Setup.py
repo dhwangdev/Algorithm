@@ -42,7 +42,8 @@ Eclipse EE Settings:
 css UTF-8
 html UTF-8
 JSP UTF-8
-3. 
+3. Servers -> Apache Tomcat 9
+4. Create New Dynamic Web project
 
 Javascript- VS Code
 1. download node js
