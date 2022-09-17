@@ -42,8 +42,11 @@ Eclipse EE Settings:
 css UTF-8
 html UTF-8
 JSP UTF-8
-3. Servers -> Apache Tomcat 9
-4. Create New Dynamic Web project
+
+1. 서버등록
+1) Java EE -> Servers -> Apache/ Tomcat 9
+2) next -> 톰켓 폴더 디렉토리. (끝나면 Servers 폴더 생성됨)
+3) New Dynamic Web Project 
 
 Javascript- VS Code
 1. download node js
