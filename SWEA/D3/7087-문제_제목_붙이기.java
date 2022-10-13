@@ -16,16 +16,21 @@ public class Solution {
 				arr[i] = br.readLine();
 			}// 입력 완료
 			
-			int count = 0;
+			int count = 1;
 			Arrays.sort(arr);
 			for (int i=1; i<N; i++) {
-				if (arr[0].charAt(0)=='a') count++;
-				
-				if (arr[i].charAt(0)-arr[i-1].charAt(0)==0 || arr[i].charAt(0)-arr[i-1].charAt(0)==1) {
-					
+				if (arr[0].charAt(0)!='A') {
+					count = 0;
+					break;
 				}
+				
+				if (arr[i].charAt(0)-arr[i-1].charAt(0)==0) continue; 
+				else if (arr[i].charAt(0)-arr[i-1].charAt(0)==1) count++;
+				else break;
 			}
+			sb.append("#"+tc+" "+count+"\n");
 		}
+		System.out.println(sb.toString());
 		
 		br.close();
 	}
