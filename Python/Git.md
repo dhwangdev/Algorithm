@@ -6,3 +6,5 @@
 git add .
 git commit -m "내용"
 git push
+
+git clone 주소https
