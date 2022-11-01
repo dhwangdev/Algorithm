@@ -6,3 +6,4 @@ ctrl + shift + k: delete line
 ctrl + k + c: comment out line
 ctrl + k + u: uncomment out line
 ctrl + shift + L: multi cursor selection
+ctrl + L: select line
