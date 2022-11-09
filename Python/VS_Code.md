@@ -1,4 +1,4 @@
-F2: renaming/ refactoring
+F2: renaming/ refactoring<br>
 alt + up/down: move a line of code up or down
 shift + alt + up/down: duplicate line
 shift + alt + i: write on multiple lines at once
