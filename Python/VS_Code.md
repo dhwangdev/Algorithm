@@ -1,5 +1,5 @@
 F2: renaming/ refactoring<br>
-alt + up/down: move a line of code up or down
+alt + up/down: move a line of code up or down<br>
 shift + alt + up/down: duplicate line
 shift + alt + i: write on multiple lines at once
 ctrl + shift + k: delete line
