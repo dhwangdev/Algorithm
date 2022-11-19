@@ -4,6 +4,6 @@ shift + alt + up/down: duplicate line<br>
 shift + alt + i: write on multiple lines at once<br>
 ctrl + shift + k: delete line<br>
 ctrl + k + c: comment out line<br>
-ctrl + k + u: uncomment out line
+ctrl + k + u: uncomment out line<br>
 ctrl + shift + L: multi cursor selection
 ctrl + L: select line
