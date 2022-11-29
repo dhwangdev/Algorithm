@@ -1,6 +1,6 @@
 ctrl + /: comment out/ remove comment<br>
 ctrl + D: delete line<br>
-ctrl + alt + up/down: duplicate line
+ctrl + alt + up/down: duplicate line<br>
 alt + shift + R: refactoring
 alt up/down: move a line of code up/down
 alt + shift + A: write on multiple lines at once
