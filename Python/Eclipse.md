@@ -3,7 +3,7 @@ ctrl + D: delete line<br>
 ctrl + alt + up/down: duplicate line<br>
 alt + shift + R: refactoring<br>
 alt up/down: move a line of code up/down<br>
-alt + shift + A: write on multiple lines at once
+alt + shift + A: write on multiple lines at once<br>
 ctrl + shift + P: jump to the beginning or end of (), {}, []
 
 <Maven>
