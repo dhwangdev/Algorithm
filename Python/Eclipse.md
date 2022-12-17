@@ -16,6 +16,3 @@ If there is a problem with Maven:
 2. type spring -> go to spring context
 3. pick version
 4. update pom.xml
-
-
-Asff
