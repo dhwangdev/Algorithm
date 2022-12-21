@@ -17,4 +17,3 @@ If there is a problem with Maven:
 3. pick version
 4. update pom.xml
 
-Asdf
