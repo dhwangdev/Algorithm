@@ -3,3 +3,6 @@ ctrl + C: Interrupt/ kill current procedure<br>
 ctrl + L: clear screen<br>
 ctrl + P: previous command in history<br>
 cd .. : go to parent directory
+
+
+git status
