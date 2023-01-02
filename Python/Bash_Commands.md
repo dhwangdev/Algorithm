@@ -5,4 +5,4 @@ ctrl + P: previous command in history<br>
 cd .. : go to parent directory
 
 
-git status
+git status: displays the state of the working directory and the staging area
