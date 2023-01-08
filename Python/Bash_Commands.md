@@ -5,6 +5,7 @@ ctrl + P: previous command in history<br>
 ctrl + Y: paste<br>
 cd .. : go to parent directory<br>
 ls: list the contents of the current working directory
+mkdir: creates a new empty directory
 
 
 git status: displays the state of the working directory and the staging area
