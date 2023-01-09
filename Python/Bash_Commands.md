@@ -4,7 +4,7 @@ ctrl + L: clear screen<br>
 ctrl + P: previous command in history<br>
 ctrl + Y: paste<br>
 cd .. : go to parent directory<br>
-ls: list the contents of the current working directory
+ls: list the contents of the current working directory<br>
 mkdir: creates a new empty directory
 
 
