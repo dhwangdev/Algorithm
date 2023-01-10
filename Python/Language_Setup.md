@@ -1,4 +1,4 @@
-Python- VS Code
+### Python- VS Code
 1. download latest version of python
 2. download VS Code
 3. get python extension (contains pylance, jupyter)
