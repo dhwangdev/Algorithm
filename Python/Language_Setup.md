@@ -3,7 +3,7 @@
 2. download VS Code
 3. get python extension (contains pylance, jupyter)
 
-Kotlin- Intellij
+### Kotlin- Intellij
 1. download Intellij
 2. download jdk (Intellij will give a prompt to download the kotlin plugin)
 
