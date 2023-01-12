@@ -7,7 +7,7 @@
 1. download Intellij
 2. download jdk (Intellij will give a prompt to download the kotlin plugin)
 
-Java- Intellij
+### Java- Intellij
 1. download JDK
 
 1. jdk 17 (or latest jdk version)
