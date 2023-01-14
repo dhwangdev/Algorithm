@@ -48,6 +48,6 @@ JSP UTF-8
 2) next -> 톰켓 폴더 디렉토리. (끝나면 Servers 폴더 생성됨)
 3) New Dynamic Web Project 
 
-Javascript- VS Code
+### Javascript- VS Code
 1. download node js
 2. get live server extension
