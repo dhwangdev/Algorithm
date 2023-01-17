@@ -5,3 +5,4 @@ ctrl + alt + L: proper formatting<br>
 ctrl + Q: documentation comment<br>
 ctrl + B: read standard library<br>
 ctrl + shift + P: check data type<br>
+ctrl + Y: delete line
