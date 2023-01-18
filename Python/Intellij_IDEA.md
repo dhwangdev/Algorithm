@@ -6,3 +6,5 @@ ctrl + Q: documentation comment<br>
 ctrl + B: read standard library<br>
 ctrl + shift + P: check data type<br>
 ctrl + Y: delete line
+ctrl + Z: undo
+ctrl + shift + Z: redo
