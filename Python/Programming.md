@@ -1,3 +1,2 @@
 star
 shift
-Hashmap
