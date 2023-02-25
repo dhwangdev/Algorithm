@@ -1,1 +1,4 @@
-ArrayList
+int a = 4/3;
+double b = (double) (4/3);
+double c = Math.ceil((double) 4/3);
+int d = (int) Math.ceil((double) 4/3);
