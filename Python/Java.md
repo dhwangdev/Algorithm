@@ -14,3 +14,6 @@ array2 = array1.clone();
 
 ### int to String
 - Use String.valueOf(숫자) because 숫자.toString() cannot work as primitives do not use the latter 
+
+### Check data type
+변수/ 객체 .getClass().getSimpleName();
