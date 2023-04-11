@@ -1,11 +1,22 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 public class Main {
     static int node, edge, root;
     static int[][] mat;
     static boolean[] visited;
     static StringBuilder sb = new StringBuilder();
+
+    static void dfs(int x) {
+        visited[x] = true;
+        sb.append(x).append(" ");
+
+        for (int num=1; num<=node; num++) {
+            if (mat[x][num]==1 && !visited[num]) {
+                dfs(num);
+            }
+        }
+    } // dfs
 
     static void bfs() {
         Deque<Integer> queue = new ArrayDeque<>();
@@ -33,7 +44,6 @@ public class Main {
         node = Integer.parseInt(st.nextToken());
         edge = Integer.parseInt(st.nextToken());
         root = Integer.parseInt(st.nextToken());
-
         mat = new int[node+1][node+1];
         visited = new boolean[node+1];
 
@@ -46,10 +56,12 @@ public class Main {
             mat[two][one] = 1;
         }
 
+        dfs(root);
+        sb.append("\n");
+        visited = new boolean[node+1];
         bfs();
         System.out.println(sb);
 
         br.close();
-
     }
 }
