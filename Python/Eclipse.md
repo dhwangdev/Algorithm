@@ -5,6 +5,8 @@ alt + shift + R: refactoring<br>
 alt up/down: move a line of code up/down<br>
 alt + shift + A: write on multiple lines at once<br>
 ctrl + shift + P: jump to the beginning or end of (), {}, []<br>
+alt + shift + M: extract method
+
 <Maven>
 If there is a problem with Maven:
 1. alt + F5: update Maven
@@ -16,4 +18,3 @@ If there is a problem with Maven:
 2. type spring -> go to spring context
 3. pick version
 4. update pom.xml
-  
