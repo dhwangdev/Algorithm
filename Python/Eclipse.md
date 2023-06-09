@@ -6,6 +6,7 @@ alt up/down: move a line of code up/down<br>
 alt + shift + A: write on multiple lines at once<br>
 ctrl + shift + P: jump to the beginning or end of (), {}, []<br>
 alt + shift + M: extract method
+ctrl + shift + O: automatically insert needed imports<br>
 
 <Maven>
 If there is a problem with Maven:
