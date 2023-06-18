@@ -17,3 +17,6 @@ array2 = array1.clone();
 
 ### Check data type
 변수/ 객체 .getClass().getSimpleName();
+
+### asdf
+compareTo
