@@ -20,3 +20,4 @@ array2 = array1.clone();
 
 ### asdf
 compareTo
+getordefault
