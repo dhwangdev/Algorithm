@@ -27,3 +27,4 @@ System.exit(0);
 arraylist
 hashset
 hashmap
+deque
