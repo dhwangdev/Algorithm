@@ -28,4 +28,10 @@ arraylist
 hashset
 hashmap
 deque
+offerLast
+offerFirst
+size
+isEmpty
+peekLast
+peekFirst
 add
