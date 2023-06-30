@@ -59,3 +59,4 @@ add
 .split(" ");
 (can return a string array)
 contains
+replaceAll
