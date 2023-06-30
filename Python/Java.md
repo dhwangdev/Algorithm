@@ -24,9 +24,27 @@ getordefault
 stringbuilder
 sb.setLength(0);
 System.exit(0);
+
 arraylist
+add
+get
+indexOf
+size
+isEmpty
+
 hashset
+add
+remove
+contains
+
 hashmap
+put
+get
+getOrDefault
+remove
+containsKey
+containsValue
+
 deque
 offerLast
 offerFirst
@@ -35,3 +53,8 @@ isEmpty
 peekLast
 peekFirst
 add
+
+
+### String
+.split(" ");
+(can return a string array)
