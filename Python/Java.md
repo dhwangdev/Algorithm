@@ -18,6 +18,10 @@ array2 = array1.clone();
 ### Check data type
 변수/ 객체 .getClass().getSimpleName();
 
+### StringTokenizer
+ex)
+st = new StringTokenizer(br.readLine(), "@#$");
+
 ### asdf
 compareTo
 getordefault
