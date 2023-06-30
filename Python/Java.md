@@ -58,3 +58,4 @@ add
 ### String
 .split(" ");
 (can return a string array)
+contains
