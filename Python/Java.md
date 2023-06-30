@@ -58,6 +58,7 @@ peekLast
 peekFirst
 add
 
+PriorityQueue<타입> pq = new PriorityQueue<>(Collections.reverseOrder());
 
 ### String
 .split(" ");
