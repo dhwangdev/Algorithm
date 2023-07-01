@@ -65,3 +65,6 @@ PriorityQueue<타입> pq = new PriorityQueue<>(Collections.reverseOrder());
 (can return a string array)
 contains
 replaceAll
+
+### make
+getClass().getName();
