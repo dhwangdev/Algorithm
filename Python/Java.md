@@ -67,5 +67,5 @@ PriorityQueue<타입> pq = new PriorityQueue<>(Collections.reverseOrder());
 contains
 replaceAll
 
-### make
+### Object
 getClass().getName();
