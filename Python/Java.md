@@ -24,7 +24,6 @@ st = new StringTokenizer(br.readLine(), "@#$");
 
 ### asdf
 compareTo
-getordefault
 stringbuilder
 sb.setLength(0);
 System.exit(0);
