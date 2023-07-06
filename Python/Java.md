@@ -22,7 +22,7 @@ array2 = array1.clone();
 ex)
 st = new StringTokenizer(br.readLine(), "@#$");
 
-### asdf
+### System
 compareTo
 stringbuilder
 sb.setLength(0);
