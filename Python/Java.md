@@ -22,6 +22,13 @@ array2 = array1.clone();
 ex)
 st = new StringTokenizer(br.readLine(), "@#$");
 
+### String
+.split(" ");
+(can return a string array)
+contains
+replaceAll
+
+
 ### System
 compareTo
 stringbuilder
@@ -60,11 +67,7 @@ add
 
 PriorityQueue<타입> pq = new PriorityQueue<>(Collections.reverseOrder());
 
-### String
-.split(" ");
-(can return a string array)
-contains
-replaceAll
+
 
 ### Object
 getClass().getName();
