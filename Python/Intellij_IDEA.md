@@ -8,3 +8,8 @@ ctrl + shift + P: check data type<br>
 ctrl + Y: delete line
 ctrl + Z: undo
 ctrl + shift + Z: redo
+
+project
+inlay
+gradle
+keymap
