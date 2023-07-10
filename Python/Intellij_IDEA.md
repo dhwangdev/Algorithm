@@ -8,7 +8,7 @@ ctrl + shift + P: check data type<br>
 ctrl + Y: delete line
 ctrl + Z: undo
 ctrl + shift + Z: redo
-ctrl + alt + V
+ctrl + alt + V: Extract/ Introduce Variable refactoring
 
 project
 inlay
