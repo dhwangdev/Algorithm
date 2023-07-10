@@ -9,6 +9,7 @@ ctrl + Y: delete line
 ctrl + Z: undo
 ctrl + shift + Z: redo
 ctrl + alt + V: Extract/ Introduce Variable refactoring
+soutv
 
 project
 inlay
