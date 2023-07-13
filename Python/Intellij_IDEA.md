@@ -10,6 +10,7 @@ ctrl + Z: undo
 ctrl + shift + Z: redo
 ctrl + alt + V: Extract/ Introduce Variable refactoring
 soutv: prints String and the variable
+ctrl + shift + T: create new test
 /**
 
 project
