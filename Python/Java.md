@@ -36,7 +36,7 @@ sb.setLength(0);
 System.exit(0);
 
 ### Collections
-arraylist
+ArrayList<타입> arrList = new ArrayList<>(사이즈);
 add
 get
 indexOf
