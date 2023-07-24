@@ -48,7 +48,7 @@ add
 remove
 contains
 
-hashmap
+HashMap<타입1, 타입2> hm = new HashMap<>();
 put
 get
 getOrDefault
