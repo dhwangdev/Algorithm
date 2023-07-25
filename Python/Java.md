@@ -56,7 +56,7 @@ remove
 containsKey
 containsValue
 
-deque
+Deque<타입> deque = new ArrayDeque<>();
 offerLast
 offerFirst
 size
