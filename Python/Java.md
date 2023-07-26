@@ -43,7 +43,7 @@ indexOf
 size
 isEmpty
 
-hashset
+HashSet<타입> hs = new HashSet<>();
 add
 remove
 contains
