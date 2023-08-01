@@ -13,7 +13,7 @@ soutv: prints String and the variable
 ctrl + shift + T: create new test
 /**
 
-project
-inlay
-gradle
-keymap
+project<br>
+inlay<br>
+gradle<br>
+keymap<br>
