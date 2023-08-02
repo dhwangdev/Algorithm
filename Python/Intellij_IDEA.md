@@ -5,12 +5,12 @@ ctrl + alt + L: proper formatting<br>
 ctrl + Q: documentation comment<br>
 ctrl + B: read standard library<br>
 ctrl + shift + P: check data type<br>
-ctrl + Y: delete line
-ctrl + Z: undo
-ctrl + shift + Z: redo
-ctrl + alt + V: Extract/ Introduce Variable refactoring
-soutv: prints String and the variable
-ctrl + shift + T: create new test
+ctrl + Y: delete line<br>
+ctrl + Z: undo<br>
+ctrl + shift + Z: redo<br>
+ctrl + alt + V: Extract/ Introduce Variable refactoring<br>
+soutv: prints String and the variable<br>
+ctrl + shift + T: create new test<br>
 /**
 
 project<br>
