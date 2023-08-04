@@ -36,6 +36,11 @@ sb.setLength(0);
 System.exit(0);
 
 ### Collections
+Array
+for 2D array:
+Arrays.sort(mat, Comparator.comparingInt( (int[] a) -> a[1]) );
+끝에 .reversed();
+
 ArrayList<타입> arrList = new ArrayList<>(사이즈);
 add
 get
