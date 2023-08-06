@@ -15,8 +15,9 @@ array2 = array1.clone();
 ### int to String
 - Use String.valueOf(숫자) because 숫자.toString() cannot work as primitives do not use the latter 
 
-### Check data type
-변수/ 객체 .getClass().getSimpleName();
+### Object
+get name of object: getClass().getName();
+get(check) data type: getClass().getSimpleName();
 
 ### StringTokenizer
 ex)
@@ -74,5 +75,4 @@ PriorityQueue<타입> pq = new PriorityQueue<>(Collections.reverseOrder());
 
 
 
-### Object
-getClass().getName();
+
