@@ -12,6 +12,7 @@ ctrl + alt + V: Extract/ Introduce Variable refactoring<br>
 soutv: prints String and the variable<br>
 ctrl + shift + T: create new test<br>
 /**
+ctrl + E: history
 
 project<br>
 inlay<br>
