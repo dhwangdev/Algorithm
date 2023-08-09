@@ -13,6 +13,7 @@ soutv: prints String and the variable<br>
 ctrl + shift + T: create new test<br>
 /**
 ctrl + E: history
+ctrl + alt + M: Extract/ Introduce method
 
 project<br>
 inlay<br>
