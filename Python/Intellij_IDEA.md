@@ -16,6 +16,7 @@ ctrl + shift + T: create new test<br>
 ctrl + E: history
 ctrl + alt + M: Extract/ Introduce method
 iter: iterate iterable or array
+alt + enter: show context actions
 
 project<br>
 inlay<br>
