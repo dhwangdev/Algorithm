@@ -17,6 +17,7 @@ ctrl + E: history
 ctrl + alt + M: Extract/ Introduce method
 iter: iterate iterable or array
 alt + enter: show context actions
+ctrl + N: navigate & go to class
 
 project<br>
 inlay<br>
