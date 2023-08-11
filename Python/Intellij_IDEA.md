@@ -10,6 +10,7 @@ ctrl + Z: undo<br>
 ctrl + shift + Z: redo<br>
 ctrl + alt + V: Extract/ Introduce Variable refactoring<br>
 soutv: prints String and the variable<br>
+soutm: prints method name and the method<br>
 ctrl + shift + T: create new test<br>
 /**
 ctrl + E: history
