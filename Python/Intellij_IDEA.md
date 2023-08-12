@@ -12,12 +12,12 @@ ctrl + alt + V: Extract/ Introduce Variable refactoring<br>
 soutv: prints String and the variable<br>
 soutm: prints method name and the method<br>
 ctrl + shift + T: create new test<br>
-/**
-ctrl + E: history
-ctrl + alt + M: Extract/ Introduce method
-iter: iterate iterable or array
-alt + enter: show context actions
-ctrl + N: navigate & go to class
+/** <br>
+ctrl + E: history<br>
+ctrl + alt + M: Extract/ Introduce method<br>
+iter: iterate iterable or array<br>
+alt + enter: show context actions<br>
+ctrl + N: navigate & go to class<br>
 
 project<br>
 inlay<br>
