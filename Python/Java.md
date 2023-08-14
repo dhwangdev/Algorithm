@@ -10,8 +10,6 @@ array2 = array1.clone();
 
 2. Deep copy (use this for nested arrays)
 
-
-
 ### int to String
 - Use String.valueOf(숫자) because 숫자.toString() cannot work as primitives do not use the latter 
 
