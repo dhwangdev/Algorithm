@@ -18,6 +18,7 @@ ctrl + alt + M: Extract/ Introduce method<br>
 iter: iterate iterable or array<br>
 alt + enter: show context actions<br>
 ctrl + N: navigate & go to class<br>
+ctrl + shift + enter: Code completion- complete current statement
 
 project<br>
 inlay<br>
