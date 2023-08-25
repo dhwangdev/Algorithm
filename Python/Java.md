@@ -26,7 +26,7 @@ st = new StringTokenizer(br.readLine(), "@#$");
 (can return a string array)
 contains
 replaceAll
-
+스트링.repeat(반복할_횟수);
 
 ### System
 compareTo
