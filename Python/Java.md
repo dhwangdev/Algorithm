@@ -27,6 +27,7 @@ st = new StringTokenizer(br.readLine(), "@#$");
 contains
 replaceAll
 스트링.repeat(반복할_횟수);
+.substring(시작숫자, 끝숫자+1);
 
 ### System
 compareTo
