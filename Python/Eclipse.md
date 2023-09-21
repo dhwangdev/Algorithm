@@ -5,7 +5,7 @@ alt + shift + R: refactoring<br>
 alt up/down: move a line of code up/down<br>
 alt + shift + A: write on multiple lines at once<br>
 ctrl + shift + P: jump to the beginning or end of (), {}, []<br>
-alt + shift + M: extract method
+alt + shift + M: extract method<br>
 ctrl + shift + O: automatically insert needed imports<br>
 
 <Maven>
