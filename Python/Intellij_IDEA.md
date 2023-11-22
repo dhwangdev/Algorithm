@@ -3,7 +3,7 @@ ctrl + D: duplicate line<br>
 ctrl + shift + up/down: move a line of code up or down<br>
 ctrl + alt + L: proper formatting<br>
 ctrl + Q: documentation comment<br>
-ctrl + B: read standard library<br>
+ctrl + B: navigate & go to declaration or usages<br>
 ctrl + shift + P: check data type<br>
 ctrl + Y: delete line<br>
 ctrl + Z: undo<br>
