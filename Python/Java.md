@@ -44,6 +44,10 @@ Array
 for 2D array:
 Arrays.sort(mat, Comparator.comparingInt( (int[] a) -> a[1]) );
 끝에 .reversed();
+Arrays.sort(mat, (int[] a, int[] b) ->  {
+            if (a[1]==b[1]) return a[0]-b[0];
+            else return a[1]-b[1];
+        });
 
 ArrayList<타입> arrList = new ArrayList<>(사이즈);
 add
