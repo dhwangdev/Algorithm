@@ -7,6 +7,7 @@ alt + shift + A: write on multiple lines at once<br>
 ctrl + shift + P: jump to the beginning or end of (), {}, []<br>
 alt + shift + M: extract method<br>
 ctrl + shift + O: automatically insert needed imports<br>
+ctrl + space: autocomplete recommendation
 
 <Maven>
 If there is a problem with Maven:
