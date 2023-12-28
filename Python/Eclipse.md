@@ -8,6 +8,7 @@ ctrl + shift + P: jump to the beginning or end of (), {}, []<br>
 alt + shift + M: extract method<br>
 ctrl + shift + O: automatically insert needed imports<br>
 ctrl + space: autocomplete recommendation
+ctrl + W: close current file
 
 <Maven>
 If there is a problem with Maven:
