@@ -9,6 +9,7 @@ alt + shift + M: extract method<br>
 ctrl + shift + O: automatically insert needed imports<br>
 ctrl + space: autocomplete recommendation
 ctrl + W: close current file
+ctrl + shift + L: view all keyboard shortcuts
 
 <Maven>
 If there is a problem with Maven:
