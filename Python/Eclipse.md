@@ -11,6 +11,7 @@ ctrl + space: autocomplete recommendation
 ctrl + W: close current file
 ctrl + shift + L: view all keyboard shortcuts
 F3: go to a type declaration (see function definitions)
+ctrl + PgUP/PgDn: moves through editor tabs
 
 <Maven>
 If there is a problem with Maven:
