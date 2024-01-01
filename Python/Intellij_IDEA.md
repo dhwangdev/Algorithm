@@ -19,6 +19,7 @@ iter: iterate iterable or array<br>
 alt + enter: show context actions<br>
 ctrl + N: navigate & go to class<br>
 ctrl + shift + enter: Code completion- complete current statement<br>
+alt left/right: move between tabs
 
 project<br>
 inlay<br>
