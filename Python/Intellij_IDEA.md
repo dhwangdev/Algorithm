@@ -21,6 +21,7 @@ ctrl + N: navigate & go to class<br>
 ctrl + shift + enter: Code completion- complete current statement<br>
 alt left/right: move between tabs
 ctrl + O: override method
+ctrl + alt + shift + T: refactor this
 
 project<br>
 inlay<br>
