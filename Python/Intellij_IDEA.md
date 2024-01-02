@@ -20,6 +20,7 @@ alt + enter: show context actions<br>
 ctrl + N: navigate & go to class<br>
 ctrl + shift + enter: Code completion- complete current statement<br>
 alt left/right: move between tabs
+ctrl + O: override method
 
 project<br>
 inlay<br>
