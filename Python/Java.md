@@ -50,6 +50,8 @@ Arrays.sort(mat, (int[] a, int[] b) ->  {
         });
 
 ArrayList<타입> arrList = new ArrayList<>(사이즈);
+arrList.sort(Comparator.comparingInt(o -> o.attribute));
+arrList.sort((o1, o2) -> o1.attribute-o2.attribute);
 add
 get
 indexOf
