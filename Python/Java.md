@@ -1,3 +1,25 @@
+Sort
+For an array: Arrays.sort(arr, (람다) -> { 익스프레션 }
+For an arrayList: arrList.sort((람다) -> {익스프레션}
+
+Ordering
+String: small.compareTo(big)
+int: Integer.compare(x, y)
+- avoids overflow issues
+- safer than direct subtraction: small - big
+
+Comparator
+Comparator.comparingInt
+ex) Comparator.comparingInt(small -> small[1])
+ Comparator.comparingInt(small -> small[1]).reversed()
+
+Custom Lambda Expression
+ex) (small, big) -> Integer.compare(small[1], big[1])
+(small, big) -> Integer.compare(big[1], small[1])
+
+
+
+
 ### Array copy
 - A new array assigned to an old array will incur problems when the new array is changed as the old array will change with it.
 - To resolve this the copy should be used.
