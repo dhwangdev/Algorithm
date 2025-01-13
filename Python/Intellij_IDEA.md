@@ -1,3 +1,4 @@
+shift + ctrl + F: Find in files
 shift + F6: rename variable, function names for all cases<br>
 ctrl + D: duplicate line<br>
 ctrl + shift + up/down: move a line of code up or down<br>
