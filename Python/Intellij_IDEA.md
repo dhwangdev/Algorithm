@@ -26,6 +26,8 @@ ctrl + alt + shift + T: refactor this
 alt + F7: search for usages in a project
 alt + J: select multiple occurrences
 
+live templates
+
 project<br>
 inlay<br>
 gradle<br>
