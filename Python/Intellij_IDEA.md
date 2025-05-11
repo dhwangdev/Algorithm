@@ -26,6 +26,7 @@ ctrl + alt + shift + T: refactor this
 alt + F7: search for usages in a project
 alt + J: select multiple occurrences
 ctrl + alt + P: extract parameter > extract variable to be the parameter for the method
+ctrl + alt + N: inline variable <br>
 
 live templates
 
